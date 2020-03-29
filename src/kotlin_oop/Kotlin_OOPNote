@@ -1,0 +1,16 @@
+# Access modifiers:
+private – Can be accessed inside the class only.
+public – Can be accessed everywhere.
+protected – Can be accessed to the class and its subclasses.
+internal – Can be accessed inside the module.
+# Kotlin Constructors
+The main purpose of constructor is to initialize the properties of a class. Constructor is called when we
+create the object of a class.
+In Kotlin we have two types of constructor – primary and secondary constructor.
+1. Primary Constructor – Initialize the properties of class
+2. Secondary Constructor – Initialize the properties of class,
+ we can have additional initialization code inside secondary constructor.
+ 1. Primary Constructor
+ A primary constructor is the easiest way to initialize the class. It is declared as part of the class header.
+  In the following example we have declared a constructor (val name: String, var age: Int) as part of the class header.
+  This is our primary constructor that initializes the name and age properties (data members) of class Student.
