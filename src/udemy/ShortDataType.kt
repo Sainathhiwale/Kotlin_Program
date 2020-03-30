@@ -1,6 +1,6 @@
 package udemy
 /*
-* Short 16 bit = 2 byte*/
+* Short 16 bit = 2 byte  Signed Numbers = - + number*/
 fun main(args:Array<String>){
     var myShort:Short =0
     var myShort2:Short =1

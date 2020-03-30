@@ -1,5 +1,5 @@
 package udemy
-
+/* Int 32 bit = 4 Byte Signed Numbers = - + number*/
 fun main(args:Array<String>){
 
     var myInt1:Int =0
