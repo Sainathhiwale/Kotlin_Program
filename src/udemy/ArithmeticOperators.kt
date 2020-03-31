@@ -27,11 +27,9 @@ fun main(args:Array<String>){
 
 
     //mumber function
-    var num1=20
-    var num2=30;
-    var sum =number1.plus(number2)
-    sum = (num1+num2).toDouble()
-
+    var sum:Double? =null
+    var tot = 10.30+30.40
+    sum = number1.plus(number2)+tot
     println("mumber function : $sum")
 
 
