@@ -8,6 +8,13 @@ fun main(args:Array<String>){
     val resultstr = fullName("Sainath","Hiwale")
     println("string fun result : $resultstr")
 
+    //defaulth argument function
+    val defResult = findPrecentAmount(100,5)
+    println("default function argument is $defResult")
+
+    //named arugment kotlin
+    val nameResult = calDimension(40,40,length = 8)
+
 }
 
  fun cal(a:Int, b:Int){
@@ -25,4 +32,17 @@ fun fullName(name: String, lastName:String):String{
 
     return "$name $lastName"
 }
+//default argument function
 
+fun findPrecentAmount(prize:Int,percent:Int,divider:Int=100):Int{ // 100 is default parameter of function defination
+
+    return  prize -(prize*percent/divider)
+}
+
+// kotlin named argument
+
+fun calDimension(width:Int,height:Int,length:Int):Int{
+    val value =width*height*length
+    println("dimension value is:${value.toShort()}")
+    return value
+}
