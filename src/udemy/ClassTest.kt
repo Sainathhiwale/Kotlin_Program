@@ -2,7 +2,7 @@ package udemy
 
 fun main(args:Array<String>){
 
-    var carobj = CarClassTest()
+    var carobj = Car()
     carobj.carColor = "red"
     carobj.carName = "tata "
     carobj.carNo = 2345
@@ -16,6 +16,7 @@ fun main(args:Array<String>){
     """.trimIndent()
     println("the result :${result1.trimMargin()}")
     //calling class method
+    carobj.carInfo()
     carobj.drive()
     carobj.giveBreak()
     //add car object data into mutable list
@@ -25,11 +26,12 @@ fun main(args:Array<String>){
     mList.add(carobj.carNo)
     mList.add(carobj.cc)
 
+
     for (i in 0..mList.size-1){
         println("the mlist index: ${i} values : ${mList[i]}")
     }
 
-    //add car object data into immutable list
+    //add car state of object into mutable list using immutable listof()
     mList.addAll(listOf(carobj))
     for (i in 0..mList.size-1){
         println("2nd the mlist index: ${i} values : ${mList[i]}")
