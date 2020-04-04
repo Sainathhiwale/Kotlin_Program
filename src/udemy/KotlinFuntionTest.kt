@@ -13,7 +13,7 @@ fun main(args:Array<String>){
     println("default function argument is $defResult")
 
     //named arugment kotlin
-    val nameResult = calDimension(40,40,length = 8)
+   calDimension(40,40,length = 8)
 
 }
 
