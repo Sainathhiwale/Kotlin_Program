@@ -18,4 +18,21 @@ fun main(args:Array<String>){
     //calling class method
     carobj.drive()
     carobj.giveBreak()
+    //add car object data into mutable list
+    var mList = mutableListOf<Any>()
+    mList.add(carobj.carColor)
+    mList.add(carobj.carName)
+    mList.add(carobj.carNo)
+    mList.add(carobj.cc)
+
+    for (i in 0..mList.size-1){
+        println("the mlist index: ${i} values : ${mList[i]}")
+    }
+
+    //add car object data into immutable list
+    mList.addAll(listOf(carobj))
+    for (i in 0..mList.size-1){
+        println("2nd the mlist index: ${i} values : ${mList[i]}")
+    }
+
 }
