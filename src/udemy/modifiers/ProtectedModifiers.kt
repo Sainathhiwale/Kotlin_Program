@@ -4,12 +4,12 @@ open class ProtectedModifiers {
     protected  var  a=10
 
 }
-class ChildProtected:ProtectedModifiers(){
+ class ChildProtected:ProtectedModifiers(){
 
-    fun getValue():Int{
+    protected fun getValue():Int{
         return a
     }
-    fun display(){
+     fun display(){
         println(a)
     }
 }
