@@ -6,8 +6,8 @@ class SecondaryConstTest {
     var address =""
     var mobileNo =0L
     // secondary constructor initilaize the class lavel varible to constructor using ' this ' Keyword
-    constructor(empName: String, empNo: Int, address: String, mobileNo: Long) {
-        this.empName = empName
+    constructor(emName: String, empNo: Int, address: String, mobileNo: Long) {
+        this.empName = emName
         this.empNo = empNo
         this.address = address
         this.mobileNo = mobileNo
