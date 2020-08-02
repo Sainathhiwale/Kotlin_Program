@@ -4,7 +4,7 @@ fun main(args:Array<String>){
 
     var str:String = "hello non nullable"
 
-    str = null
+    //str = null
     
     println(str)
 
