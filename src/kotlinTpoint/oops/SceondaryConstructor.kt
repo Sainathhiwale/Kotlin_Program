@@ -10,5 +10,4 @@ class SecondaryConstructorTest{
 }
 fun main(args:Array<String>){
     val obj2 = SecondaryConstructorTest(2,2000000,"developer")
-
 }
