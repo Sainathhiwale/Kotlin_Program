@@ -12,6 +12,7 @@ fun main(){
 fun getOperatingSystem(computer: Computer) = computer.operatingSystem()
 abstract class Computer{
     abstract fun operatingSystem():String
+   
 
 }
 
