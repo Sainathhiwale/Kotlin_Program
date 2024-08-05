@@ -1,4 +1,4 @@
-package jetpack_compose
+package jetpack_compose.sealed_enum
 
 fun main(args: Array<String>){
 
